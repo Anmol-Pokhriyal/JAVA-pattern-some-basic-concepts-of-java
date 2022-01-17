@@ -1,0 +1,26 @@
+class PrintlnvsPrint {
+    public static void main(String[] args) {
+
+        // printing first horizontal line
+        for (int i = 0; i <= 5; i++) {
+            System.out.print("* ");
+        }
+        System.out.println(" ");
+
+        // printing slant line
+        for (int i = 4; i > 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                if (j == i) {
+                    System.out.println("*");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+        }
+
+        // printing second horizontal line
+        for (int i = 0; i <= 5; i++) {
+            System.out.print("* ");
+        }
+    }
+}
