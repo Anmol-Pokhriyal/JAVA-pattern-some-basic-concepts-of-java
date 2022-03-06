@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        int a;
+        double b;
+        String c; 
+        Scanner sc=new Scanner(System.in);
+         
+         a=sc.nextInt();
+         b=sc.nextDouble();
+         sc.nextLine();
+         c=sc.nextLine();
+         
+         System.out.println("String: "+ c);
+         System.out.println("Double: "+b);
+         System.out.println("Int: "+a);
+         
+    }
+}
